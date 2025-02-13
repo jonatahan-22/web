@@ -1,0 +1,136 @@
+  /* General Styles */
+  body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #353535;
+    }
+    
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(90deg, #050706, #134716);
+      color: #f3f3f3;
+    }
+    
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    
+    /* Contact Form Section */
+    .contact-form {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .contact-form h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #000000;
+    }
+    
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .contact-form label {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+    
+    .contact-form input, 
+    .contact-form textarea {
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #6b6363;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    
+    .contact-form button {
+      background: #f3f3f3;
+      color: #000000;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+    
+    .contact-form button:hover {
+      background: #000000;
+    }
+    
+    /* Social Media Section */
+    .social-media {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    
+    .social-media h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #000000;
+    }
+      
+    .social-media .icons a {
+      margin: 0 10px;
+      display: inline-block;
+    }
+    
+    .social-media .icons img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s ease;
+    }
+    
+    .social-media .icons img:hover {
+      transform: scale(1.2);
+    }
+    
+    /* Map Section */
+    .map {
+      text-align: center;
+      margin: 2rem auto;
+    }
+    
+    .map h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #000000;
+    } 
+    
+    iframe {
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('fondo2.webp');
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      color: rgb(250, 250, 250);
+      text-align: center;
+      margin-top: 50px;
+    }
+    

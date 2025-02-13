@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Avanzada</title>
+  <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <h1 class="title">Calculadora Avanzada</h1>
+    <div class="calculator">
+      <input type="text" id="calc-display" readonly>
+      <div class="buttons">
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="/" class="operator">÷</button>
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="*" class="operator">×</button>
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="-" class="operator">−</button>
+        <button data-value="0">0</button>
+        <button data-value="." class="dot">.</button>
+        <button data-clear="true" class="clear">C</button>
+        <button data-value="+" class="operator">+</button>
+        <button data-calculate="true" class="equal">=</button>
+      </div>
+    </div>
+    <div class="fabric-selection">
+      <h2>Selecciona un tipo de tela</h2>
+      <select id="fabric-options">
+        <option value="algodon">Algodón</option>
+        <option value="seda">Seda</option>
+        <option value="poliester">Poliéster</option>
+        <option value="lino">Lino</option>
+      </select>
+      <button id="fabric-select-btn">Seleccionar</button>
+      <p id="selected-fabric">Tela seleccionada: Ninguna</p>
+    </div>
+  </div>
+  <script src="calculadora.js"></script>
+</body>
+</html>
